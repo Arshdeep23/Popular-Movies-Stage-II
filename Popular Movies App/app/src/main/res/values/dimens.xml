@@ -1,0 +1,28 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_dimens_margin">16dp</dimen>
+    <dimen name="app_bar_ki_height">200dp</dimen>
+    <dimen name="movie_poster_dimens_right_padding">16dp</dimen>
+    <dimen name="movie_poster_dimens_vertical_padding">16dp</dimen>
+    <dimen name="movie_overview_dimens_padding_top">16dp</dimen>
+    <dimen name="movie_date_dimens_vertical_padding">16dp</dimen>
+    <dimen name="trailer_list_dimens_vertical_padding">16dp</dimen>
+    <dimen name="movie_poster_width_dimens_detail">140dp</dimen>
+    <dimen name="movie_poster_height_dimens_detail">210dp</dimen>
+    <dimen name="movie_title_padding_dimens_grid">16dp</dimen>
+    <dimen name="trailer_width_dimens_detail">150dp</dimen>
+    <dimen name="trailer_height_dimens_detail">100dp</dimen>
+    <dimen name="review_vertical_dimens_padding">16dp</dimen>
+    <dimen name="detail_of_horizontal_margin">16dp</dimen>
+    <dimen name="detail_of_vertical_padding">8dp</dimen>
+    <dimen name="detail_of_horizontal_padding">16dp</dimen>
+    <integer name="grid_number_cols">3</integer>
+    <string name="url_string_downloading_poster">http://image.tmdb.org/t/p/w342</string>
+    <string name="url_string_downloading_backdrop">http://image.tmdb.org/t/p/original</string>
+    <dimen name="button_dimens_height">36dp</dimen>
+    <dimen name="button_dimens_horizontal_padding">16dp</dimen>
+    <dimen name="button_dimens_vertical_padding">0dp</dimen>
+    <dimen name="button_dimens_vertical_margin">16dp</dimen>
+    <dimen name="detail_title_dimens_left_padding">4dp</dimen>
+    <dimen name="detail_title_dimens_bottom_margin">4dp</dimen>
+</resources>

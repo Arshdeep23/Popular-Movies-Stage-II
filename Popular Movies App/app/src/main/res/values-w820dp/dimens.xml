@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="app_bar_ki_height">400dp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

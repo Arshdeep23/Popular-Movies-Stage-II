@@ -1,0 +1,16 @@
+<resources>
+    <color name="colorPrimary">#880e4f</color>
+    <color name="colorSecondary">#1b5e20</color>
+    <color name="colorPrimaryDark">#560027</color>
+    <color name="colorAccent">#f57f17</color>
+
+    <color name="color_for_movie_detail_background">#FFF9c4</color>
+    <color name="color_for_stars">#1a237e</color>
+
+    <color name="red">#F44336</color>
+    <color name="text_color_for_review_content">@android:color/black</color>
+
+    <color name="text_color_for_movie_overview">@android:color/black</color>
+    <color name="empty_view_text_color">#BDBDBD</color>
+
+</resources>

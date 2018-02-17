@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Popular Movies App</string>
+    <string name="title_movie_key">Popular Movies</string>
+    <string name="title_key_movie_detail">Movie Detail</string>
+    <string name="movie_rating_key">TMDb: %1$s/10</string>
+
+    <string name="date_key_missing">Unable to process release date!!!</string>
+
+    <string name="key_empty_view_title">No movie Available</string>
+    <string name="key_empty_view_text">Internet Connection Missing! Try Again!!</string>
+
+    <string name="key_most_popular">Most popular</string>
+    <string name="key_top_rated_string">Top rated</string>
+
+    <string name="key_empty_favourites_text">Place your favourite movies here</string>
+    <string name="key_empty_favourites_title">No movie Available</string>
+
+    <string name="sort_as">Sort by</string>
+    <string name="share_key_trailer">Share trailer</string>
+
+    <string name="key_remove_as_favorites">Remove from favorites</string>
+    <string name="key_add_as_favorites">Mark as my favorite</string>
+    <string name="key_view_trailer">Watch trailer</string>
+    <string name="key_favorites">Favorites</string>
+
+</resources>

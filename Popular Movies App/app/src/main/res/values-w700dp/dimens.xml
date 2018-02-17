@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="app_bar_ki_height">300dp</dimen>
+    <integer name="grid_number_cols">5</integer>
+</resources>

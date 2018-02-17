@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.popularmovies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/movies_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.android.popularmovies.MoviePopulatorActivity"
+            android:label="@string/title_movie_key"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.example.android.popularmovies.data.MoviesContentProviderExtention"
+            android:authorities="com.example.android.popularmovies" />
+
+        <activity
+            android:name="com.example.android.popularmovies.details.ActivityDetailsMoviePopulator"
+            android:label="@string/title_key_movie_detail"
+            android:parentActivityName="com.example.android.popularmovies.MoviePopulatorActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.popularmovies.MoviePopulatorActivity" />
+        </activity>
+    </application>
+</manifest>

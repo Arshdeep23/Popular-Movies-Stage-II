@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Button.JazzBerryJam" parent="AppButton">
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="Button.DeepGreen" parent="AppButton">
+        <item name="android:colorButtonNormal">@color/colorSecondary</item>
+    </style>
+
+
+</resources>

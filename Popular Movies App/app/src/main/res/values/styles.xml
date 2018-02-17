@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">0
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppButton" parent="Base.Widget.AppCompat.Button">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/button_dimens_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/button_dimens_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/button_dimens_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/button_dimens_horizontal_padding</item>
+        <item name="android:minHeight">@dimen/button_dimens_height</item>
+
+    </style>
+
+    <style name="Button.JazzBerryJam" parent="AppButton">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="Button.DeepGreen" parent="AppButton">
+        <item name="colorButtonNormal">@color/colorSecondary</item>
+    </style>
+
+</resources>

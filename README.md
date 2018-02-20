@@ -17,4 +17,6 @@ Hurray.... congrats :clap: please give yourself pat on the back for not giving u
 
 ![screenshot_20180217-220538](https://user-images.githubusercontent.com/13187257/36425696-8c735a4c-166d-11e8-8006-ca0503d32cb7.png)
 
+This app is also working nicely on the tablet. I will be uploading the photos as soon as i get time.
+
 To run this app, you have to fix the TheMovieDB api key in the gradle files.
